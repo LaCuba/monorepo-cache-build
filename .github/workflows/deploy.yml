@@ -35,7 +35,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build React app with Turbo
-        run: pnpm turbo run build --filter=react-app...
+        run: pnpm turbo run build --filter=@repo/site...
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

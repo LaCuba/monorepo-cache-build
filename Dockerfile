@@ -11,7 +11,6 @@ COPY packages/*/package.json ./packages/*/
 
 RUN pnpm install --frozen-lockfile
 
-# Копируем исходники ПОСЛЕ установки зависимостей
 COPY . .
 
 RUN pnpm turbo run build
