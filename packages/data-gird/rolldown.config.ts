@@ -8,7 +8,7 @@ import pkg from './package.json' with { type: 'json' };
 export default defineConfig({
   input: './src/index.ts',
   output: {
-    dir: 'lib',
+    dir: 'dist',
     cssEntryFileNames: 'styles.css',
     sourcemap: true
   },

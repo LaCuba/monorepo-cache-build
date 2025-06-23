@@ -1,5 +1,5 @@
 {
-  "name": "react-data-grid",
+  "name": "@repo/react-data-grid",
   "version": "7.0.0-beta.56",
   "license": "MIT",
   "description": "Feature-rich and customizable data grid React component",
@@ -14,7 +14,7 @@
   "bugs": "https://github.com/adazzle/react-data-grid/issues",
   "type": "module",
   "exports": {
-    "./dist/styles.css": "./dist/styles.css",
+    "./styles.css": "./dist/styles.css",
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
