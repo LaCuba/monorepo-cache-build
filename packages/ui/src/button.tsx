@@ -7,7 +7,7 @@ export interface ButtonProps
 
 export function Button({ children, ...other }: ButtonProps): React.JSX.Element {
   return (
-    <button type="button" {...other}>
+    <button type="button" {...other} style={{ color: 'red' }}>
       {children}
     </button>
   )
